@@ -1,0 +1,5 @@
+{% if path == '../' %}
+@import "./tool";
+{% else %}
+@import "{{path | replace("../", "", 1)}}tool";
+{% endif %}

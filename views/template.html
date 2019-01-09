@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <link rel="stylesheet" href="{{path}}css/base.css">
+    <link rel="stylesheet" href="{{path}}common.css">
+    <link rel="stylesheet" href="{{path}}refresh.css" />
+    <link rel="stylesheet" href="{{path}}ionicons.min.css">
+    <link rel="stylesheet" href="{{path}}js/common/mui.min.css">
+    <link rel="stylesheet" href="{{path}}css/{{fileName}}.css" />
+</head>
+
+<body>
+    <div i="header" class="header header-white line-b">
+        <div class="left-btn" @touchstart="back()"><i class="iconfont icon-mjiantou-copy"></i></div>
+        <span class="head-txt"></span>
+    </div>
+     路径： {{ path }}        文件名：  {{fileName}}
+    <script type="text/javascript" src="{{path}}js/main/zepto.min.js"></script>
+    <script type="text/javascript" src="{{path}}js/main/myapi.js"></script>
+    <script type="text/javascript" src="{{path}}fonts/iconfont.js"></script>
+    <script type="text/javascript" src="{{path}}js/main/my.js"></script>
+    <script type="text/javascript" src="{{path}}js/main/vue.js"></script>
+    <script type="text/javascript" src="{{path}}js/main/flexible.js"></script>
+    <script type="text/javascript" src="{{path}}js/common/mui.min.js"></script>
+    <script type="text/javascript" src="{{path}}js/{{fileName}}.js"></script>
+</body>
+
+</html>
