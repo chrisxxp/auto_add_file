@@ -7,6 +7,8 @@
 
 ## 使用
 
+> npm i 
+
 > npm run add 
 
 > run add 之前注意需要修改一些配置
